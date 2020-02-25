@@ -30,7 +30,7 @@ namespace RPG2
                 }
                 else if (ans == "N" || ans == "n")
                 {
-                    break;
+                    System.Environment.Exit(0);
                 }
             }
         }
